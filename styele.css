@@ -1,0 +1,40 @@
+/* clearing css */
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parallax {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+.intro {
+    background-image: url('Gunung.jpg');
+}
+
+.content {
+    background-image: url('Gunung2.jpg');
+}
+
+.footer {
+    background-image: url('Gunung3.jpg');
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.title {
+    font-size: 2.5em;
+    letter-spacing: 20px;
+    font-family: fantasy;
+    color: aliceblue;
+}
